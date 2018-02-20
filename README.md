@@ -50,7 +50,7 @@
 [submission_merge.ipynb](https://github.com/NaughtyFlame/distracted_driver_detection/blob/master/submission_merge.ipynb)
 
 此外，运行以上代码，文件夹的布局为：
-
+```
 |--- dataset
         |--- train (22424 images)
               |--- c0 (2489 images)
@@ -60,5 +60,5 @@
                |--- test (79726 images)
 |--- subm (存放导出的预测submission)
 |--- models (训练的模型)
-
+```
 需要说明的是使用kares中`flow_from_directory`方法，需要传入一个包含子目录的目录，所以测试集文件放置，安排了两层。
