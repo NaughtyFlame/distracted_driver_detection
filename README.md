@@ -22,6 +22,10 @@
 
 我们可以看到，除了第一种状态安全驾驶，其他九种状态都是司机开车时的危险动作。
 
+## 项目评估与报告
+
+我最终训练出来的模型，在测试集上评估的LogLoss为0.28486，在[Kaggle排行榜](https://www.kaggle.com/c/state-farm-distracted-driver-detection/leaderboard)，排名前13%。具体实施方案详见[本项目报告](https://github.com/NaughtyFlame/distracted_driver_detection/blob/master/capstone.pdf)。
+
 ## 数据
 
 这个项目训练、测试用的数据是来自于一个Kaggle竞赛State Farm Distracted Driver Detection([数据集现在链接](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data))。
